@@ -1,0 +1,39 @@
+{
+    "software": {
+        "soft-version": "1.4_stable",
+        "soft-name": "OBST Pixel of blocks",
+        "soft-datecreate": "14 JANUARY 2022",
+        "soft-devname": "Jerry Lacmou",
+        "soft-devmail": "jerrylacmou@gmail.com",
+        "soft-devphone": "(+237) 656463663",
+        "soft-dirname": "CGM-Sol-for-OBST/"
+    },
+    "datasets": {
+        "datasets-dir": "resources/datasets/",
+        "datasets-type": "frequencies/",
+        "datasets-dirname": "1023/",
+        "datasets-filename": "1023",
+        "datasets-extension": ".data",
+        "datasets-max-number-keys": "1023",
+        "datasets-input": {
+            "datasets-input-id": "_2",
+            "datasets-input-max-fragmentation": "2",
+            "datasets-input-max-number-keys": "4095",
+            "datasets-input-algorithm": "5",
+            "datasets-input-partitioning-technique": "1"
+        },
+        "datasets-create": {
+            "datasets-create-id": "_1"
+        }
+    },
+    "logger": {
+        "logger-dirname": "logs/",
+        "logger-filename": "CGM-OBST.log"
+    },
+    "output": {
+        "output-dirname": "output/",
+        "output-dirname-secondary": "secondary/",
+        "output-filename": "stat_process_",
+        "output-extension": ".csv"
+    }
+}
