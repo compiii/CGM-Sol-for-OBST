@@ -76,7 +76,7 @@ mpirun -np {number of processors} -hostfile hosts ./bin/CGM-OBST.run {data size}
 For instance :
 
 ````
-mpirun -np 8 -hostfile hosts ./bin/CGM-OBST.run 10240 1 5 1
+mpirun -np 8 -hostfile hosts ./bin/CGM-OBST.run 8191 1 5 1
 ````
 
 ## License
